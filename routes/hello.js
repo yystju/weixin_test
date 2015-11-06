@@ -36,11 +36,9 @@
           }
         };
     
-        console.log('-1-');
-    
         var req = https.request(options, function(res) {
           var output = '';
-          console.log(options.host + ':' + res.statusCode);
+          //console.log(options.host + ':' + res.statusCode);
           res.setEncoding('utf8');
       
           console.log('-2-');
